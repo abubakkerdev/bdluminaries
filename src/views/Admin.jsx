@@ -7,7 +7,7 @@ import AdminLayout from "@/components/layouts/AdminLayout";
 // import dashboard
 import { Cms, Crm, Analytics, Sales, Hosting, Saas, Marketing, Ecommerce, Projects } from "@/views/dashboard/";
 // import ecommerce
-import { Checkout, Customers, Invoice, OrderDetail, Orders, ProductDetail, Products, Sellers, ShoppingCart } from "@/views/ecommerce/";
+import { Customers, Invoice, OrderDetail, Orders, ProductDetail, Products, Sellers, ShoppingCart } from "@/views/ecommerce/";
 // import project
 import { CreateProject, Kanban, ProjectDetail, ProjectLists } from "@/views/project/";
 // import pages
@@ -61,7 +61,7 @@ export default function Admin() {
         <Route exact path="/ecommerce/sellers/*" element={<Sellers />} />
         <Route exact path="/ecommerce/customers/*" element={<Customers />} />
         <Route exact path="/ecommerce/shopping-cart/*" element={<ShoppingCart />} />
-        <Route exact path="/ecommerce/checkout/*" element={<Checkout />} />
+        {/* <Route exact path="/ecommerce/checkout/*" element={<Checkout />} /> */}
         <Route exact path="/ecommerce/invoice/*" element={<Invoice />} />
 
         {/* Projects */}
