@@ -7,7 +7,7 @@ import AdminLayout from "@/components/layouts/AdminLayout";
 // import dashboard
 import { Cms, Crm, Analytics, Sales, Hosting, Saas, Marketing, Ecommerce, Projects } from "@/views/dashboard/";
 // import ecommerce
-import { Customers, Invoice, OrderDetail, Orders, ProductDetail, Products, Sellers, ShoppingCart } from "@/views/ecommerce/";
+import { Customers, Invoice, OrderDetail, Orders, ProductDetail, Products, Sellers, ShoppingCart } from "@/views/ecommerce/index";
 // import project
 import { CreateProject, Kanban, ProjectDetail, ProjectLists } from "@/views/project/";
 // import pages
